@@ -16,8 +16,10 @@ func main() {
 		fmt.Printf("errrorr ")
 
 	}
+	/*
+		es_gorm.BasicsF()
+		es_gorm.DB.Close()
+	*/
 
-	es_gorm.BasicsF()
-	es_gorm.DB.Close()
-
+	es_gorm.Mysql_conect()
 }
